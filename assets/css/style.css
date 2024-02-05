@@ -1,0 +1,65 @@
+@font-face {
+font-family: Vazir;
+src: url('../fonts/Vaziredited.woff') format('woff');
+font-weight: normal;
+}
+body{
+    font-family: Vazir;
+    background-color: white;
+    color: #555555;
+    font-size: 20px;
+}
+#tarea {
+    width: 100%;
+    margin-top: 20px;
+    text-align: justify;
+    direction: ltr;
+    min-height: 120px;
+    overflow-y: scroll;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+#converted {
+    text-align: justify;
+    direction: ltr;
+    white-space: pre-line;
+}
+p{
+    font-family: Vazir;
+    margin: 10px auto;
+    
+    
+}
+#converted2 p{
+    border: 2px solid gray;
+    padding: 10px 10px;
+    display: block;
+}
+button{
+    font-family: Vazir;
+    margin: 10px auto;
+    direction: rtl;
+    text-align: center;
+    float: right;
+    
+}
+pre{
+    direction: rtl;
+    text-align: right;
+    
+}
+h1{
+    direction: rtl;
+    text-align: center;
+    
+}
+.block {
+    
+    width: 100%;
+    height: 48px;
+}
